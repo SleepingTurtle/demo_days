@@ -4,6 +4,7 @@ import requests
 def fetchWeather(lat, lon):
     response =  requests.get(f"https://api.weather.gov/points/{lat},{lon}")  .json()
     x = response["@context"][1]["@version"]
+    print("EVERTHING CAPS")
     return x
 
 
