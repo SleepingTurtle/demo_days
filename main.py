@@ -17,5 +17,5 @@ def fetchWeather(lat, lon):
 
 
 if __name__ == "__main__":
-    temperature = fetchWeather("41.409", "-75.6624")
-    print(f"The current temperature is: {temperature}F")
+
+    fetchWeatherAPIVersion(44, 22)
